@@ -1,7 +1,7 @@
 j = []
-b = input()
 
 while True:
+    b = input()
     j.append(b)
     s = "стоп"
     if b == s:
