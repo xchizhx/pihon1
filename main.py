@@ -1,8 +1,8 @@
 j = []
 b = input()
-s = "стоп"
 
-while b != s:
+while b != "стоп":
+    b = input()
     j.append(b)
 
 print(j)
