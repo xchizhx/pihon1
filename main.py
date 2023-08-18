@@ -1,4 +1,4 @@
-def kot(d):
+def kot(d, s):
     s = d.split(",")
 
     for i in range(len(s)):
@@ -6,4 +6,4 @@ def kot(d):
             return s[i]
 
 
-print(kot("пёс,кит,кот,лошадь,жираф"))
+print(kot("пёс,кит,кот,лошадь,жираф", ","))
