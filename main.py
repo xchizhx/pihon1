@@ -1,10 +1,10 @@
-v = [1, 4, 7, 3, 0]
+def kot():
+    d = "пёс,кит,кот,лошадь,жираф"
+    s = d.split(",")
+
+    for i in range(len(s)):
+        if d[i] == "кот":
+            return d[i]
 
 
-def test(a):
-    return a
-
-
-print(sorted(v, key=test))
-
-# lambda a, b: print(a, b)
+kot()
