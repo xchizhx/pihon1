@@ -3,8 +3,8 @@ def kot():
     s = d.split(",")
 
     for i in range(len(s)):
-        if d[i] == "кот":
-            return d[i]
+        if s[i] == "кот":
+            return s[i]
 
 
 print(kot())
