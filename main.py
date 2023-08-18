@@ -1,5 +1,5 @@
-def kot(d, s):
-    s = d.split(s)
+def kot(d, sep):
+    s = d.split(sep)
 
     for i in range(len(s)):
         if s[i] == "кот":
