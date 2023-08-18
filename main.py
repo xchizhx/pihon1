@@ -7,4 +7,4 @@ def kot():
             return d[i]
 
 
-kot()
+print(kot())
