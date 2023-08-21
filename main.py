@@ -1,9 +1,8 @@
-def kot(d, sep):
-    s = d.split(sep)
+def list(a):
+    s = a
 
-    for i in range(len(s)):
-        if s[i] == "кот":
-            return s[i]
-
-
-print(kot("пёс,кит,кот,лошадь,жираф", ","))
+    # for key, value in a.items():
+    #
+    #     print(key, value)
+    print(max(s.keys()))
+print(list({"Артём": 15, "Ян": 17}))
