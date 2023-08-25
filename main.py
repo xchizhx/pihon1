@@ -1,8 +1,13 @@
 import random
+from random import randrange
 from math import factorial
 
 
-rand_num = random.randint(-100, 100)
-rand_num_dict = {"key": rand_num}
+def func(n):
+    my_dict = for j in range(random.randint):
+        for i in range(n):
+            my_dict['key'+str(i)] = randrange(100)
+        return my_dict
 
-print(rand_num_dict)
+
+print(func(5))
